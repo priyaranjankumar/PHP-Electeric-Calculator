@@ -88,7 +88,8 @@ it should open a file like this
  ```
 
 ![](cal2.png)
-
+<br />
+<br />
 * If the Unit is greater than 50 but less than 100 then it should charge 9₹ for first 50 and 12₹ for the remaining units.
 
 ```
@@ -98,7 +99,8 @@ so cost will be (50x9)+(1x12)= 462₹
 ```
 
 ![](cal3.png)
-
+<br />
+<br />
 
 * If the Unit greater than 100 so it should cost 9₹ for first 50 units, 12₹ for next 50 units and 15₹ for remaining units..
 
