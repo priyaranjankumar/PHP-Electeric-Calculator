@@ -59,11 +59,60 @@ You can skip **Step: 2** and copy the file directly into the html folder.
 sudo cp index.php /var/www/html/
 
 ```
-**Step:4** 
+**Step:4**   
 Restart Apache 
 
 ```
 sudo systemctl restart apache2
 
 ```
+## Running the tests
 
+* Open Your Browser and Enter localhost into address bar.
+
+```
+localhost 
+
+```
+it should open a file like this
+<br />
+<br />
+![](cal1.png)
+<br />
+<br />
+
+* If the Unit is less than 50 then it should charge 9₹
+``` Given Units = 20
+    so cost will be 20x9 = 180₹
+    
+ ```
+ <br />
+<br />
+ ![](cal2.png)
+<br />
+<br />
+* If the Unit is greater than 50 but less than 100 then it should charge 9₹ for first 50 and 12₹ for the remaining units.
+
+```
+Given Units=51
+so cost will be (50x9)+(1x12)= 462₹
+
+```
+<br />
+<br />
+ ![](cal3.png)
+<br />
+<br />
+
+* If the Unit greater than 100 so it should cost 9₹ for first 50 units, 12₹ for next 50 units and 15₹ for remaining units..
+
+```
+Given Units=
+so cost will be (50x9)+(50x12)+(20x15)= 1650₹
+
+```
+<br />
+<br />
+ ![](cal4.png)
+<br />
+<br />
