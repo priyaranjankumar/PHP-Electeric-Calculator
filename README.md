@@ -86,11 +86,9 @@ it should open a file like this
     so cost will be 20x9 = 180₹
     
  ```
- <br />
-<br />
- ![](cal2.png)
-<br />
-<br />
+
+![](cal2.png)
+
 * If the Unit is greater than 50 but less than 100 then it should charge 9₹ for first 50 and 12₹ for the remaining units.
 
 ```
@@ -98,11 +96,9 @@ Given Units=51
 so cost will be (50x9)+(1x12)= 462₹
 
 ```
-<br />
-<br />
- ![](cal3.png)
-<br />
-<br />
+
+![](cal3.png)
+
 
 * If the Unit greater than 100 so it should cost 9₹ for first 50 units, 12₹ for next 50 units and 15₹ for remaining units..
 
@@ -111,8 +107,6 @@ Given Units=
 so cost will be (50x9)+(50x12)+(20x15)= 1650₹
 
 ```
-<br />
-<br />
- ![](cal4.png)
-<br />
-<br />
+
+![](cal4.png)
+
